@@ -1,1 +1,2 @@
-Practicing c concepts from scratch
+Practicing all c concepts from scratch
+
