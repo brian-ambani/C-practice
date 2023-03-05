@@ -19,7 +19,7 @@ int main()
 	// deleting the first element
 	for (i = 0; i < size - 1; i++)
 	{
-		a[0] = a[ i + 1];
+		a[i] = a[ i + 1];
 	}
 	size--;
 
