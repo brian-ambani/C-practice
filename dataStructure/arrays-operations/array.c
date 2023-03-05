@@ -3,10 +3,18 @@
 
 int main()
 {
-	/* int a[5] = {6, 2, 4, 3, 0}; */
+	int a[50], size, i;
 
-	printf("Enter the ements of the array");
+	printf("Enter the size of the array:\n");
+	scanf("%d", &size);
 
-	for (int i = 0; i < 4; i++)
-		scanf("%d" a);
+	printf("Enter the elements of the array:\n");
+	for (i = 0; i < size; i++)
+		scanf("%d", &a[i]);
+
+	printf("The array is:\n");
+
+	for (i = 0; i < size; i ++)
+		printf("%d\t", a[i]);
+	printf("\n");
 }
