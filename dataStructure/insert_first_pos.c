@@ -7,7 +7,6 @@ int main()
 	int a[50], size, i, num;
 
 	printf("Enter the sie of the array:\n");
-	scanf("%d", &size);
 
 	if (size > 50)
 	{
@@ -33,5 +32,9 @@ int main()
 	a[0] = num;
 	size ++;
 
-	printf("%d", a[i]);
+	printf("Array results: \n");
+	for (i = 0; i < size; i++)
+		printf("%d\n", a[i]);
+
+	return (0);
 }
