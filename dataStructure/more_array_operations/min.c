@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* using the same logic you can get the max no. in the array*/
 
 int main()
 {
