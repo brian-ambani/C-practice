@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node
+typedef struct node
 {
 	int data;
 	struct node *next;
-};
+}node;
 
 int main()
 {
-	struct node* head = NULL;
-	struct node* sec = NULL;
-	struct node* third = NULL;
+	node* head;
+	node* sec;
+	node* third;
 
 	// allocate 3 nodes in the heap
 	head = (struct node*)malloc(sizeof(struct node));
