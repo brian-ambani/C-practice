@@ -52,8 +52,35 @@ int main()
 
 	head = new;
 
-	struct node *temp1;
+	struct node *temp0;
 
+	temp0 = head;
+
+	while (temp0 != NULL)
+	{
+		printf("%d\t", temp0->data);
+		temp0 = temp0->next;
+	}
+
+	printf("\n");
+	/*Adding at the beggining*/
+
+
+
+	/* Adding at the end of the list*/
+	
+	printf("Adding at the End of the list\n");
+
+	struct node* new_end;
+
+	new_end = (struct node*)malloc(sizeof(struct node));
+
+	new_end->data = 70;
+	
+	nodeC->next = new_end;
+	new_end->next = NULL;
+
+	struct node* temp1;
 	temp1 = head;
 
 	while (temp1 != NULL)
@@ -63,7 +90,6 @@ int main()
 	}
 
 	printf("\n");
-	/*Adding at the beggining*/
-
+	/* Adding at the end of the list*/
 	return 0;
 }
