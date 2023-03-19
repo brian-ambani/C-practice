@@ -6,7 +6,7 @@ void display();
 struct Node{
 	int data;
 	struct Node* next;
-};
+}n;
 
 int main()
 {
@@ -14,7 +14,6 @@ int main()
 	struct Node* second;
 	struct Node* third;
 	struct Node* fourth;
-
 
 	first = (struct Node*)malloc(sizeof(struct Node));
 	second = (struct Node*)malloc(sizeof(struct Node));

@@ -1,8 +1,7 @@
 // Delete the first element in an array
 
 #include <stdio.h>
-
-int main()
+nt main()
 {
 	int a[50], size, i, pos;
 
