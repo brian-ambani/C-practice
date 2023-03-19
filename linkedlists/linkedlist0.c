@@ -38,5 +38,32 @@ int main()
 	}
 	printf("\n");
 
+
+	/* Addin at the beginning*/
+	printf("ADDING AN ELEMENT TO THE LIST\n");
+	
+	struct node *new;
+
+	new =  (struct node*)malloc(sizeof(struct node));
+
+	new->data = 50;
+
+	new->next = head;
+
+	head = new;
+
+	struct node *temp1;
+
+	temp1 = head;
+
+	while (temp1 != NULL)
+	{
+		printf("%d\t", temp1->data);
+		temp1 = temp1->next;
+	}
+
+	printf("\n");
+	/*Adding at the beggining*/
+
 	return 0;
 }
